@@ -1,0 +1,12 @@
+c:\users\corporate\documents\visual studio 2013\Projects\Peformance_Model_Queue\Peformance_Model_Queue\obj\Debug\QueuingNetwork_Peformance_Model.csprojResolveAssemblyReference.cache
+c:\users\corporate\documents\visual studio 2013\Projects\Peformance_Model_Queue\Peformance_Model_Queue\bin\Debug\QueuingNetwork_Peformance_Model.exe.config
+c:\users\corporate\documents\visual studio 2013\Projects\Peformance_Model_Queue\Peformance_Model_Queue\bin\Debug\QueuingNetwork_Peformance_Model.exe
+c:\users\corporate\documents\visual studio 2013\Projects\Peformance_Model_Queue\Peformance_Model_Queue\bin\Debug\QueuingNetwork_Peformance_Model.pdb
+c:\users\corporate\documents\visual studio 2013\Projects\Peformance_Model_Queue\Peformance_Model_Queue\obj\Debug\QueuingNetwork_Peformance_Model.exe
+c:\users\corporate\documents\visual studio 2013\Projects\Peformance_Model_Queue\Peformance_Model_Queue\obj\Debug\QueuingNetwork_Peformance_Model.pdb
+C:\Users\corporate\Documents\Visual Studio 2013\Projects\Peformance_Model_Queue\QueuingNetwork_Peformance_Model\bin\Debug\QueuingNetwork_Peformance_Model.exe.config
+C:\Users\corporate\Documents\Visual Studio 2013\Projects\Peformance_Model_Queue\QueuingNetwork_Peformance_Model\obj\Debug\QueuingNetwork_Peformance_Model.exe
+C:\Users\corporate\Documents\Visual Studio 2013\Projects\Peformance_Model_Queue\QueuingNetwork_Peformance_Model\obj\Debug\QueuingNetwork_Peformance_Model.pdb
+C:\Users\corporate\Documents\Visual Studio 2013\Projects\Peformance_Model_Queue\QueuingNetwork_Peformance_Model\bin\Debug\QueuingNetwork_Peformance_Model.exe
+C:\Users\corporate\Documents\Visual Studio 2013\Projects\Peformance_Model_Queue\QueuingNetwork_Peformance_Model\bin\Debug\QueuingNetwork_Peformance_Model.pdb
+C:\Users\corporate\Documents\Visual Studio 2013\Projects\Peformance_Model_Queue\QueuingNetwork_Peformance_Model\obj\Debug\QueuingNetwork_Peformance_Model.csprojResolveAssemblyReference.cache
