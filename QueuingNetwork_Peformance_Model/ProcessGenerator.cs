@@ -26,17 +26,20 @@ namespace Peformance_Model_Queue
 
         private double CalculateRandomTaskExecutionTime(double x)
         {
-            return ProcessConstants.TaskExecutionConstant * Math.Log(1 - x, Math.E);
+            return _random.NextDouble() * 100;
+            //return ProcessConstants.TaskExecutionConstant * Math.Log(1 - x, Math.E);
         }
 
         private double CalculateRandomDiskExecutionTime(double x)
         {
-            return ProcessConstants.DiskExecutionConstant * Math.Log(1 - x, Math.E);
+            return _random.NextDouble();
+            //return ProcessConstants.DiskExecutionConstant * Math.Log(1 - x, Math.E);
         }
 
         private double CalculateRandomInterArrivalTime(double x)
         {
-            return ProcessConstants.ArrivalTimeConstant * Math.Log(1 - x, Math.E);
+            return _random.NextDouble();
+            //return ProcessConstants.ArrivalTimeConstant * Math.Log(1 - x, Math.E);
         }
 
         private IEnumerable<Process> GenerateJobCollection()
@@ -58,7 +61,7 @@ namespace Peformance_Model_Queue
         /// <returns></returns>
         public IEnumerable<Process> GenerateJobs()
         {
-            return GenerateJobCollection().OrderBy(x => x.InterArrivalTime);
+            return GenerateJobCollection();//.OrderBy(x => x.InterArrivalTime);
         }
     }
 }

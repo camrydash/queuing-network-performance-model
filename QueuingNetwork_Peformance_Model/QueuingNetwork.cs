@@ -60,7 +60,7 @@ namespace Peformance_Model_Queue
             ///Initialize the Processor Queue with the first 50 jobs
             _processes = initialJobs;
             _executionStop = isInitiallySuspended;
-            _random = new Random(100);
+            _random = new Random();
             _processorQueue = new Queue<Process>();
 
             _processorQueueHandled = new List<int>();
@@ -120,21 +120,22 @@ namespace Peformance_Model_Queue
             throw new ArgumentException("No Server Process Is Free!");
         }
 
-        private TimeSpan CalculateProcessWaitTime(Process p)
+        private TimeSpan CalculateProcessInterArrivalTime(Process p)
         {
-            TimeSpan arrivalTime;
-            int currentProcessNumber = p.ProcessNumber;
-            if (currentProcessNumber == 1)
-            {
-                arrivalTime = TimeSpan.FromSeconds(p.InterArrivalTime);
-            }
-            else
-            {
-                Process previousProcessContext = _processes.ElementAt((currentProcessNumber - 1) - 1);
-                arrivalTime = TimeSpan.FromSeconds(previousProcessContext.InterArrivalTime) +
-                              TimeSpan.FromSeconds(p.InterArrivalTime);
-            }
-            return arrivalTime;
+            //TimeSpan arrivalTime;
+            //int currentProcessNumber = p.ProcessNumber;
+            //if (currentProcessNumber == 1)
+            //{
+            //    arrivalTime = TimeSpan.FromSeconds(p.InterArrivalTime);
+            //}
+            //else
+            //{
+            //    Process previousProcessContext = _processes.ElementAt((currentProcessNumber - 1) - 1);
+            //    arrivalTime = TimeSpan.FromSeconds(previousProcessContext.InterArrivalTime) +
+            //                  TimeSpan.FromSeconds(p.InterArrivalTime);
+            //}
+            //return arrivalTime;
+            return TimeSpan.FromSeconds(p.InterArrivalTime);
         }
 
         /// <summary>
@@ -149,7 +150,7 @@ namespace Peformance_Model_Queue
                     Process p = _processes.ElementAt(i);
                     Logger.LogFormat("Adding Process: {0} To Processor Queue", p);
 
-                    TimeSpan arrivalTime = CalculateProcessWaitTime(p);
+                    TimeSpan arrivalTime = CalculateProcessInterArrivalTime(p);
                     Thread.Sleep(arrivalTime);
 
                     _processorQueue.Enqueue(p);
@@ -183,10 +184,13 @@ namespace Peformance_Model_Queue
 
                             ///Dequeue the process and get the server processor to process it
                             Process process = _processorQueue.Dequeue();
-                            Logger.LogFormat("Dequeue: {0}", process);
+                            Logger.LogFormat("Dequeue: {0}\t\t[U]", process);
 
                             Logger.LogFormat("Processing: {0}", process);
-                            processor.Process(process);
+                            new Action(() =>
+                            {
+                                processor.Process(process);
+                            }).BeginInvoke(null, null);
 
                             _serverProcessesorQueueHandled.Add(process.ProcessNumber);
 
@@ -206,10 +210,11 @@ namespace Peformance_Model_Queue
                         }
                         else
                         {
-                            Logger.Log("No Server Is Available!");
+                            //Logger.Log("No Server Is Available!");
                         }
                     }
                 }
+                Logger.Log("Processed All Processes\t\t[S]");
             });
         }
 
@@ -228,7 +233,10 @@ namespace Peformance_Model_Queue
 
                         Logger.LogFormat("Processing Process: {0} in Disk 1", p);
                         DiskProcessor processor = _diskOne;
-                        processor.Process(p);
+                        new Action(() =>
+                        {
+                            processor.Process(p);
+                        }).BeginInvoke(null, null);
                         
                         Logger.LogFormat("Completed Proccess: {0} \t\t [C]", p);
                         MarkComplete(p);
@@ -239,10 +247,13 @@ namespace Peformance_Model_Queue
                     {
                         //Logger.Log("Disk 1 Queue is Empty!");
                     }
+
                     lock (_locker)
                     {
                         continueExpression = _disk1QueueHandled.Count + _disk2QueueHandled.Count + _disk3QueueHandled.Count < _processes.Count();
                     }
+
+                    Thread.Sleep(50);
                 }
 
             });
@@ -262,7 +273,10 @@ namespace Peformance_Model_Queue
 
                         Logger.LogFormat("Processing Process: {0} in Disk 2", p);
                         DiskProcessor processor = _diskTwo;
-                        processor.Process(p);
+                        new Action(() =>
+                        {
+                            processor.Process(p);
+                        }).BeginInvoke(null, null);
 
                         Logger.LogFormat("Completed Proccess: {0} \t\t [C]", p);
                         MarkComplete(p);
@@ -278,6 +292,8 @@ namespace Peformance_Model_Queue
                     {
                         continueExpression = _disk1QueueHandled.Count + _disk2QueueHandled.Count + _disk3QueueHandled.Count < _processes.Count();
                     }
+
+                    Thread.Sleep(50);
                 }
             });
         }
@@ -297,7 +313,10 @@ namespace Peformance_Model_Queue
 
                         Logger.LogFormat("Processing Process: {0} in Disk 3", p);
                         DiskProcessor processor = _diskThree;
-                        processor.Process(p);
+                        new Action(() =>
+                        {
+                            processor.Process(p);
+                        }).BeginInvoke(null, null);
              
                         Logger.LogFormat("Completed Proccess: {0} \t\t [C]", p);
                         MarkComplete(p);
@@ -313,6 +332,8 @@ namespace Peformance_Model_Queue
                     {
                         continueExpression = _disk1QueueHandled.Count + _disk2QueueHandled.Count + _disk3QueueHandled.Count < _processes.Count();
                     }
+
+                    Thread.Sleep(50);
                 }
             });
         }
