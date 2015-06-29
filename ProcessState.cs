@@ -8,6 +8,7 @@ namespace QueuingNetwork_Peformance_Model
 {
     public enum ProcessState
     {
+        Scheduled,
         Pending,
         Complete
     }

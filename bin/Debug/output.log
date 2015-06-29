@@ -1,0 +1,221 @@
+2015-06-28 08:08:34:622: 	Job: 1 is Entering the Queuing Network
+2015-06-28 08:08:34:627: 	Job: 2 is Entering the Queuing Network
+2015-06-28 08:08:34:670: 	Server: S1 is Executing Job 1
+2015-06-28 08:08:34:722: 	Server: S2 is Executing Job 2
+2015-06-28 08:08:49:869: 	Disk 1 is Executing Job 1
+2015-06-28 08:08:49:870: 	Job 1 is Exiting the Queuing network
+2015-06-28 08:09:05:119: 	Disk 1 is Executing Job 2
+2015-06-28 08:09:05:119: 	Job 2 is Exiting the Queuing network
+2015-06-28 08:09:22:475: 	Job: 3 is Entering the Queuing Network
+2015-06-28 08:09:22:477: 	Server: S1 is Executing Job 3
+2015-06-28 08:09:23:545: 	Disk 1 is Executing Job 3
+2015-06-28 08:09:23:545: 	Job 3 is Exiting the Queuing network
+2015-06-28 08:14:19:337: 	Job: 4 is Entering the Queuing Network
+2015-06-28 08:14:19:360: 	Server: S1 is Executing Job 4
+2015-06-28 08:14:19:392: 	Disk 2 is Executing Job 4
+2015-06-28 08:14:22:274: 	Job: 5 is Entering the Queuing Network
+2015-06-28 08:14:22:303: 	Server: S2 is Executing Job 5
+2015-06-28 08:14:33:359: 	Job 4 is Exiting the Queuing Network
+2015-06-28 08:14:39:358: 	Disk 1 is Executing Job 5
+2015-06-28 08:14:39:358: 	Job 5 is Exiting the Queuing network
+2015-06-28 08:15:19:836: 	Job: 6 is Entering the Queuing Network
+2015-06-28 08:15:19:867: 	Server: S1 is Executing Job 6
+2015-06-28 08:15:19:945: 	Disk 2 is Executing Job 6
+2015-06-28 08:15:28:596: 	Job 6 is Exiting the Queuing Network
+2015-06-28 08:16:48:570: 	Job: 7 is Entering the Queuing Network
+2015-06-28 08:16:48:602: 	Server: S1 is Executing Job 7
+2015-06-28 08:16:53:546: 	Disk 1 is Executing Job 7
+2015-06-28 08:16:53:546: 	Job 7 is Exiting the Queuing network
+2015-06-28 08:17:09:802: 	Job: 8 is Entering the Queuing Network
+2015-06-28 08:17:09:827: 	Server: S1 is Executing Job 8
+2015-06-28 08:17:28:005: 	Disk 1 is Executing Job 8
+2015-06-28 08:17:28:005: 	Job 8 is Exiting the Queuing network
+2015-06-28 08:18:03:300: 	Job: 9 is Entering the Queuing Network
+2015-06-28 08:18:03:344: 	Server: S1 is Executing Job 9
+2015-06-28 08:18:16:523: 	Disk 1 is Executing Job 9
+2015-06-28 08:18:16:523: 	Job 9 is Exiting the Queuing network
+2015-06-28 08:18:39:426: 	Job: 10 is Entering the Queuing Network
+2015-06-28 08:18:39:452: 	Server: S1 is Executing Job 10
+2015-06-28 08:18:39:454: 	Disk 2 is Executing Job 10
+2015-06-28 08:18:45:990: 	Job 10 is Exiting the Queuing Network
+2015-06-28 08:19:09:833: 	Job: 11 is Entering the Queuing Network
+2015-06-28 08:19:09:875: 	Server: S1 is Executing Job 11
+2015-06-28 08:19:09:892: 	Disk 2 is Executing Job 11
+2015-06-28 08:19:16:049: 	Job 11 is Exiting the Queuing Network
+2015-06-28 08:19:53:622: 	Job: 12 is Entering the Queuing Network
+2015-06-28 08:19:53:635: 	Server: S1 is Executing Job 12
+2015-06-28 08:19:53:713: 	Disk 2 is Executing Job 12
+2015-06-28 08:19:53:933: 	Job 12 is Exiting the Queuing Network
+2015-06-28 08:20:24:570: 	Job: 13 is Entering the Queuing Network
+2015-06-28 08:20:24:592: 	Server: S1 is Executing Job 13
+2015-06-28 08:20:41:045: 	Disk 1 is Executing Job 13
+2015-06-28 08:20:41:046: 	Job 13 is Exiting the Queuing network
+2015-06-28 08:21:34:274: 	Job: 14 is Entering the Queuing Network
+2015-06-28 08:21:34:319: 	Server: S1 is Executing Job 14
+2015-06-28 08:21:45:177: 	Disk 1 is Executing Job 14
+2015-06-28 08:21:45:177: 	Job 14 is Exiting the Queuing network
+2015-06-28 08:22:08:498: 	Job: 15 is Entering the Queuing Network
+2015-06-28 08:22:08:518: 	Server: S1 is Executing Job 15
+2015-06-28 08:22:08:530: 	Disk 2 is Executing Job 15
+2015-06-28 08:22:28:017: 	Job 15 is Exiting the Queuing Network
+2015-06-28 08:22:39:933: 	Job: 16 is Entering the Queuing Network
+2015-06-28 08:22:39:952: 	Server: S1 is Executing Job 16
+2015-06-28 08:22:44:367: 	Disk 1 is Executing Job 16
+2015-06-28 08:22:44:367: 	Job 16 is Exiting the Queuing network
+2015-06-28 08:22:54:395: 	Job: 17 is Entering the Queuing Network
+2015-06-28 08:22:54:431: 	Server: S2 is Executing Job 17
+2015-06-28 08:22:55:909: 	Disk 1 is Executing Job 17
+2015-06-28 08:22:55:909: 	Job 17 is Exiting the Queuing network
+2015-06-28 08:23:58:866: 	Job: 18 is Entering the Queuing Network
+2015-06-28 08:23:58:867: 	Server: S1 is Executing Job 18
+2015-06-28 08:23:58:916: 	Disk 2 is Executing Job 18
+2015-06-28 08:24:06:599: 	Job 18 is Exiting the Queuing Network
+2015-06-28 08:25:14:875: 	Job: 19 is Entering the Queuing Network
+2015-06-28 08:25:14:894: 	Server: S1 is Executing Job 19
+2015-06-28 08:25:28:900: 	Disk 1 is Executing Job 19
+2015-06-28 08:25:28:900: 	Job 19 is Exiting the Queuing network
+2015-06-28 08:25:36:680: 	Job: 20 is Entering the Queuing Network
+2015-06-28 08:25:36:710: 	Server: S1 is Executing Job 20
+2015-06-28 08:25:36:730: 	Disk 2 is Executing Job 20
+2015-06-28 08:25:37:704: 	Job 20 is Exiting the Queuing Network
+2015-06-28 08:26:00:458: 	Job: 21 is Entering the Queuing Network
+2015-06-28 08:26:00:500: 	Server: S1 is Executing Job 21
+2015-06-28 08:26:07:096: 	Disk 1 is Executing Job 21
+2015-06-28 08:26:07:096: 	Job 21 is Exiting the Queuing network
+2015-06-28 08:26:37:896: 	Job: 22 is Entering the Queuing Network
+2015-06-28 08:26:37:910: 	Server: S1 is Executing Job 22
+2015-06-28 08:26:40:048: 	Disk 1 is Executing Job 22
+2015-06-28 08:26:40:049: 	Job 22 is Exiting the Queuing network
+2015-06-28 08:27:16:772: 	Job: 23 is Entering the Queuing Network
+2015-06-28 08:27:16:773: 	Server: S1 is Executing Job 23
+2015-06-28 08:27:16:831: 	Disk 2 is Executing Job 23
+2015-06-28 08:27:35:226: 	Job 23 is Exiting the Queuing Network
+2015-06-28 08:28:16:733: 	Job: 24 is Entering the Queuing Network
+2015-06-28 08:28:16:758: 	Server: S1 is Executing Job 24
+2015-06-28 08:28:16:838: 	Disk 2 is Executing Job 24
+2015-06-28 08:28:35:241: 	Job: 25 is Entering the Queuing Network
+2015-06-28 08:28:35:287: 	Server: S1 is Executing Job 25
+2015-06-28 08:28:36:491: 	Disk 1 is Executing Job 25
+2015-06-28 08:28:36:491: 	Job 25 is Exiting the Queuing network
+2015-06-28 08:28:36:656: 	Job 24 is Exiting the Queuing Network
+2015-06-28 08:29:19:482: 	Job: 26 is Entering the Queuing Network
+2015-06-28 08:29:19:526: 	Server: S1 is Executing Job 26
+2015-06-28 08:29:19:573: 	Disk 2 is Executing Job 26
+2015-06-28 08:29:40:812: 	Job 26 is Exiting the Queuing Network
+2015-06-28 08:30:41:419: 	Job: 27 is Entering the Queuing Network
+2015-06-28 08:30:41:430: 	Server: S1 is Executing Job 27
+2015-06-28 08:30:54:240: 	Disk 1 is Executing Job 27
+2015-06-28 08:30:54:240: 	Job 27 is Exiting the Queuing network
+2015-06-28 08:31:58:217: 	Job: 28 is Entering the Queuing Network
+2015-06-28 08:31:58:260: 	Server: S1 is Executing Job 28
+2015-06-28 08:31:58:299: 	Disk 2 is Executing Job 28
+2015-06-28 08:32:03:265: 	Job 28 is Exiting the Queuing Network
+2015-06-28 08:34:46:486: 	Job: 29 is Entering the Queuing Network
+2015-06-28 08:34:46:506: 	Server: S1 is Executing Job 29
+2015-06-28 08:35:01:221: 	Disk 1 is Executing Job 29
+2015-06-28 08:35:01:221: 	Job 29 is Exiting the Queuing network
+2015-06-28 08:36:31:944: 	Job: 30 is Entering the Queuing Network
+2015-06-28 08:36:31:993: 	Server: S1 is Executing Job 30
+2015-06-28 08:36:42:279: 	Disk 1 is Executing Job 30
+2015-06-28 08:36:42:280: 	Job 30 is Exiting the Queuing network
+2015-06-28 08:36:46:948: 	Job: 31 is Entering the Queuing Network
+2015-06-28 08:36:46:950: 	Server: S1 is Executing Job 31
+2015-06-28 08:36:56:572: 	Disk 1 is Executing Job 31
+2015-06-28 08:36:56:572: 	Job 31 is Exiting the Queuing network
+2015-06-28 08:37:02:198: 	Job: 32 is Entering the Queuing Network
+2015-06-28 08:37:02:208: 	Server: S1 is Executing Job 32
+2015-06-28 08:37:05:173: 	Disk 1 is Executing Job 32
+2015-06-28 08:37:05:174: 	Job 32 is Exiting the Queuing network
+2015-06-28 08:38:30:720: 	Job: 33 is Entering the Queuing Network
+2015-06-28 08:38:30:727: 	Server: S1 is Executing Job 33
+2015-06-28 08:38:33:001: 	Disk 1 is Executing Job 33
+2015-06-28 08:38:33:001: 	Job 33 is Exiting the Queuing network
+2015-06-28 08:39:40:381: 	Job: 34 is Entering the Queuing Network
+2015-06-28 08:39:40:410: 	Server: S1 is Executing Job 34
+2015-06-28 08:39:48:811: 	Disk 1 is Executing Job 34
+2015-06-28 08:39:48:811: 	Job 34 is Exiting the Queuing network
+2015-06-28 08:40:11:115: 	Job: 35 is Entering the Queuing Network
+2015-06-28 08:40:11:152: 	Server: S1 is Executing Job 35
+2015-06-28 08:40:11:226: 	Disk 2 is Executing Job 35
+2015-06-28 08:40:26:697: 	Job 35 is Exiting the Queuing Network
+2015-06-28 08:41:47:713: 	Job: 36 is Entering the Queuing Network
+2015-06-28 08:41:47:734: 	Server: S1 is Executing Job 36
+2015-06-28 08:41:56:200: 	Disk 1 is Executing Job 36
+2015-06-28 08:41:56:201: 	Job 36 is Exiting the Queuing network
+2015-06-28 08:42:50:867: 	Job: 37 is Entering the Queuing Network
+2015-06-28 08:42:50:871: 	Server: S1 is Executing Job 37
+2015-06-28 08:43:07:634: 	Disk 1 is Executing Job 37
+2015-06-28 08:43:07:634: 	Job 37 is Exiting the Queuing network
+2015-06-28 08:43:46:508: 	Job: 38 is Entering the Queuing Network
+2015-06-28 08:43:46:535: 	Server: S1 is Executing Job 38
+2015-06-28 08:43:49:718: 	Job: 39 is Entering the Queuing Network
+2015-06-28 08:43:49:729: 	Server: S1 is Executing Job 39
+2015-06-28 08:43:49:814: 	Disk 2 is Executing Job 39
+2015-06-28 08:44:03:197: 	Job 39 is Exiting the Queuing Network
+2015-06-28 08:44:11:559: 	Disk 1 is Executing Job 38
+2015-06-28 08:44:11:559: 	Job 38 is Exiting the Queuing network
+2015-06-28 08:45:56:428: 	Job: 40 is Entering the Queuing Network
+2015-06-28 08:45:56:466: 	Server: S1 is Executing Job 40
+2015-06-28 08:46:10:616: 	Disk 1 is Executing Job 40
+2015-06-28 08:46:10:616: 	Job 40 is Exiting the Queuing network
+2015-06-28 08:47:15:920: 	Job: 41 is Entering the Queuing Network
+2015-06-28 08:47:15:936: 	Server: S1 is Executing Job 41
+2015-06-28 08:47:15:957: 	Disk 2 is Executing Job 41
+2015-06-28 08:47:23:655: 	Job 41 is Exiting the Queuing Network
+2015-06-28 08:47:36:795: 	Job: 42 is Entering the Queuing Network
+2015-06-28 08:47:36:797: 	Server: S1 is Executing Job 42
+2015-06-28 08:47:47:404: 	Disk 1 is Executing Job 42
+2015-06-28 08:47:47:405: 	Job 42 is Exiting the Queuing network
+2015-06-28 08:48:39:661: 	Job: 43 is Entering the Queuing Network
+2015-06-28 08:48:39:674: 	Server: S1 is Executing Job 43
+2015-06-28 08:48:44:967: 	Job: 44 is Entering the Queuing Network
+2015-06-28 08:48:45:008: 	Server: S1 is Executing Job 44
+2015-06-28 08:48:45:010: 	Disk 2 is Executing Job 44
+2015-06-28 08:48:51:637: 	Job: 45 is Entering the Queuing Network
+2015-06-28 08:48:51:658: 	Server: S2 is Executing Job 45
+2015-06-28 08:48:53:795: 	Job 44 is Exiting the Queuing Network
+2015-06-28 08:48:53:897: 	Disk 2 is Executing Job 45
+2015-06-28 08:48:57:094: 	Job 45 is Exiting the Queuing Network
+2015-06-28 08:49:08:658: 	Disk 1 is Executing Job 43
+2015-06-28 08:49:08:658: 	Job 43 is Exiting the Queuing network
+2015-06-28 08:50:05:721: 	Job: 46 is Entering the Queuing Network
+2015-06-28 08:50:05:737: 	Server: S1 is Executing Job 46
+2015-06-28 08:50:05:800: 	Disk 2 is Executing Job 46
+2015-06-28 08:50:07:285: 	Job 46 is Exiting the Queuing Network
+2015-06-28 08:50:31:690: 	Job: 47 is Entering the Queuing Network
+2015-06-28 08:50:31:693: 	Server: S1 is Executing Job 47
+2015-06-28 08:50:31:763: 	Disk 2 is Executing Job 47
+2015-06-28 08:50:57:798: 	Job 47 is Exiting the Queuing Network
+2015-06-28 08:50:59:293: 	Job: 48 is Entering the Queuing Network
+2015-06-28 08:50:59:310: 	Server: S1 is Executing Job 48
+2015-06-28 08:51:24:707: 	Disk 1 is Executing Job 48
+2015-06-28 08:51:24:708: 	Job 48 is Exiting the Queuing network
+2015-06-28 08:52:15:838: 	Job: 49 is Entering the Queuing Network
+2015-06-28 08:52:15:847: 	Server: S1 is Executing Job 49
+2015-06-28 08:52:15:852: 	Disk 2 is Executing Job 49
+2015-06-28 08:52:18:538: 	Job 49 is Exiting the Queuing Network
+2015-06-28 08:52:28:094: 	Job: 50 is Entering the Queuing Network
+2015-06-28 08:52:28:095: 	Server: S1 is Executing Job 50
+2015-06-28 08:52:37:664: 	Disk 1 is Executing Job 50
+2015-06-28 08:52:37:664: 	Job 50 is Exiting the Queuing network
+2015-06-28 08:52:37:711: 	Length of Simulated Time : 2643.0948819
+2015-06-28 08:52:37:711: 	Server 1 was Busy at Termination: True
+2015-06-28 08:52:37:712: 	Server 2 was Busy at Termination: False
+2015-06-28 08:52:37:712: 	Server 3 was Busy at Termination: False
+2015-06-28 08:52:37:713: 	Tasks Completed : 50
+2015-06-28 08:52:37:714: 	Tasks Currently In The Queue: 0
+2015-06-28 08:52:37:714: 	Throughput Rate (Tasks/Time): 0.0189172172147136
+2015-06-28 08:52:37:714: 	Average Turnaround Time : 52.861897638
+2015-06-28 08:52:37:715: 	Average Disk Queue Length: 16
+2015-06-28 08:52:37:715: 	Maximum Disk Queue Length: 30
+2015-06-28 08:52:37:715: 	Maximum Task Queue Length: 2
+2015-06-28 08:52:37:716: 	Average Processor Service Time : 5.92340572129902s
+2015-06-28 08:52:37:716: 	Average Device Service Time : 10.9455831063952s
+2015-06-28 08:52:37:717: 	Percentage of Time Server 1 Busy: 94.44 %
+2015-06-28 08:52:37:717: 	Percentage of Time Server 2 Busy: 5.56 %
+2015-06-28 08:52:37:717: 	Percentage of Time Server 3 Busy: 0.00 %
+2015-06-28 08:52:37:718: 	Percentage of Time Disk 1 Busy: 32.49 %
+2015-06-28 08:52:37:718: 	Percentage of Time Disk 2 Busy: 21.63 %
+2015-06-28 08:52:37:718: 	Percentage of Time Disk 3 Busy: 0.00 %
+2015-06-28 08:52:37:719: 	Minimum Queue Length: 0
+2015-06-28 08:52:37:719: 	Average Disk Queue Length : 16
